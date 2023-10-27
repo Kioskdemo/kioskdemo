@@ -12,7 +12,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'landimg': "url('/bg-image.png')",
-        'queueimg': "url('/bg-queue.png')"
+        'queueimg': "url('/bg-queue.png')",
+        'backspace': "url('/backspace.png')"
       },
     },
   },

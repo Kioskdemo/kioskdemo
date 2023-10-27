@@ -22,7 +22,7 @@ const InputNumber: React.FC<InputNumberProps> = ({
   const handleKeyClick = (key: string) => {
     if (key === 'CLEAR') {
       setInputValue('');
-    } else if (key === 'Del') {
+    } else if (key === '~') {
       const cursorPosition = inputFieldRef.current?.selectionStart || 0;
       if (cursorPosition > 0) {
         const updatedValue =
